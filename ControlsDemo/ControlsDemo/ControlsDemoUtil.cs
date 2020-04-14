@@ -4,7 +4,14 @@ using Autodesk.AutoCAD.Runtime;
 
 namespace ControlsDemo
 {
-    public class Class1
+    public class ControlsDemoUtil
     {
+        public void Demo()
+        {
+            MainForm mf = new MainForm();
+            mf.Show();
+        }
     }
 }
+
+ 
